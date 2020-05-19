@@ -1,6 +1,21 @@
 I consider myself a data science enthusiast who is always to eager to learn new topics and implement new ideas. I also write about data science, machine learning, deep learning and statistics. Below is a list of the projects I have done and some of the stories from my blog on Medium.
 
-## Projects
+# Projects
+
+### Image Classification with Deep Learning
+
+**Motivation**: Computer vision is an highly important field in data science with many applications from self-driving cars to cancer diagnosis. Convolutional neural networks (CNNs) are commonly used for computer vision and image classification tasks. I implemented a CNN using Keras to perform a binary classification task. I tried to explain the concepts of each step in a convolutional neural network and the theory behind them.
+
+**Data**: The images are taken from [Caltech101 dataset](http://www.vision.caltech.edu/Image_Datasets/Caltech101/)
+
+**Achievements**:
+* Preprocess the images using ImageDataGenerator of Keras. ImageDataGenerator generates batches of tensor image data with real-time data augmentation by applying random selections and transformations (such as rotating and shifting) in batches. Data augmentation increases the diversity of the dataset and thus helps to get more accurate results and also prevents the model from overfitting.
+* Build a CNN model with convolution and pooling layes as well as a flattenning and a dense layer.
+* The model achieved 99% accuracy on training set and 98.1% accuracy on test set.
+
+[Model accuracy](https://github.com/SonerYldrm/Image-Classification-with-CNNs/blob/master/Model_accuracy.png)
+
+[GitHub repo of the project](https://github.com/SonerYldrm/Image-Classification-with-CNNs)
 
 ### Cryptocurrency Prediction with Deep Learning
 
@@ -37,5 +52,34 @@ How to Improve:
 The fuel of machine learning models is data so if we can collect more data, it is always helpful in improving the model. We can also try a wider range of parameters in GridSearchCV because a little adjustment in a parameter may slighlty increase the model.
 
 [GitHub repo of the project](https://github.com/SonerYldrm/Churn-Prediction)
+
+
+# Blog
+
+## Machine Learning Algorithms
+
+### Supervised Learning
+
+* [Support Vector Machines](https://towardsdatascience.com/support-vector-machine-explained-8d75fe8738fd?source=friends_link&sk=677804e88752a496a154ec74bc6a04ab)
+
+* [Decision Trees and Random Forests](https://towardsdatascience.com/decision-tree-and-random-forest-explained-8d20ddabc9dd?source=friends_link&sk=2312f2149c10f0804b57bd73a8942004)
+
+* [Naive Bayes Classifiers](https://towardsdatascience.com/naive-bayes-classifier-explained-50f9723571ed?source=friends_link&sk=dff592652eb7f6589997df67b94f3d5e)
+
+* [Gradient Boosted Decision Trees](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-9259bd8205af?source=friends_link&sk=69bae99ff05784e2f18412a30e4ee4c1)
+
+* [Logistic Regression](https://towardsdatascience.com/logistic-regression-explained-593e9ddb7c6c?source=friends_link&sk=9c80aae75268c7ef88c488fa6949d3f2)
+
+* [K-Nearest Neighbors (kNN)](https://towardsdatascience.com/k-nearest-neighbors-knn-explained-cbc31849a7e3?source=friends_link&sk=526badeb56f557074d17444b4a1b1b12)
+
+### Unsupervised Learning
+
+* [K-Means Clustering](https://towardsdatascience.com/k-means-clustering-explained-4528df86a120?source=friends_link&sk=4c8c67dd0f3702b4ecd5bd435e82be2a)
+
+* [Hierarchical Clustering](https://towardsdatascience.com/hierarchical-clustering-explained-e58d2f936323?source=friends_link&sk=0dc952162cb32fd1d666488869b40998)
+
+* [DBSCAN Clustering](https://towardsdatascience.com/dbscan-clustering-explained-97556a2ad556?source=friends_link&sk=34729aecd0a0797832a686515ddcb1e3)
+
+* [Principal Component Analysis](https://towardsdatascience.com/principal-component-analysis-explained-d404c34d76e7?source=friends_link&sk=87fcb241b63ad1d06f19ec032fde61f3)
 
 
