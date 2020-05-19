@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Soner Yıldırım
+## Data Science Portfolio
 
-You can use the [editor on GitHub](https://github.com/SonerYldrm/Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Projects
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Cryptocurrency Prediction with Deep Learning
 
-### Markdown
+Motivation: Although the first redistributed cryptocurrency (bitcoin) was created in 2009, the idea of digital money arised in 1980s. In the recent years, cryptocurrencies have gained tremendeous popularity. As traditional currencies, the value of cryptocurrencies are changing in time. Using the historical data, I will implement a recurrent neural netwok using LSTM (Long short-term memory) layers to predict the trend of value of a cryptocurrency in the future.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Data: There is a huge dataset about [cryptocurrency market prices](https://www.kaggle.com/jessevent/all-crypto-currencies) on Kaggle. I only used a part of it which is historical price data of litecoin.
 
-```markdown
-Syntax highlighted code block
+Achievements:
+* Preprocess the data and convert it to a format that can be with to LSTM layer
+* Build a deep learning model with Keras that includes LSTM layers and a dense layer
+* The model achieved to reduce the loss below 0.002 on training set and also predict the trend on the test set.
 
-# Header 1
-## Header 2
-### Header 3
+![Test Set- Actual vs Real](https://github.com/SonerYldrm/Currency-Prediction-with-RNN/blob/master/Test_set_prediction.png)
 
-- Bulleted
-- List
+How to Improve:
+We can build a more robust and accurate model by collecting more data. We can also try to adjust number of nodes in a layer or add additional LSTM layers. We can also try to increase the number of timesteps which was 90 in our model.
 
-1. Numbered
-2. List
+[GitHub repo of the project](https://github.com/SonerYldrm/Churn-Prediction)
 
-**Bold** and _Italic_ and `Code` text
+### Churn Prediction
 
-[Link](url) and ![Image](src)
-```
+Motivation: Churn prediction is common use case in machine learning domain. It is very critical for business to have an idea about why and when customers are likely to churn (i.e. leave the company). Having a robust and accurate churn prediction model helps businesses to take actions to prevent customers from leaving the company.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Data: I used the telco customer churn dataset available on Kaggle. The dataset includes 20 featuures (independent variables) and 1 target (dependent) variable for 7043 customers. 
 
-### Jekyll Themes
+Achievements:
+* With an extensive exploratory data analysis process, I understand the characteristics of features as well as the relationship among them. Then, eliminated the redundant features.
+* Encode categorical features so that they can be used as input to a machine learning model. Also, normalized the numerical values.
+* Implemented two models:
+1. Ridge classifier: Achieved 76.1% accuracy on test set
+2. Random forests: Initially achievend 84.2% accuracy but I managed to increase the accuracy to 90% with hyperparameter tuning.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SonerYldrm/Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+How to Improve:
+The fuel of machine learning models is data so if we can collect more data, it is always helpful in improving the model. We can also try a wider range of parameters in GridSearchCV because a little adjustment in a parameter may slighlty increase the model.
 
-### Support or Contact
+[GitHub repo of the project](https://github.com/SonerYldrm/Churn-Prediction)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
