@@ -1,4 +1,4 @@
-I consider myself a data science enthusiast who is always to eager to learn new topics and implement new ideas. I also write about data science, machine learning, deep learning and statistics. Below is a list of the projects I have done and some of the stories from my blog on Medium.
+I consider myself a data science enthusiast who is always eager to learn new topics and implement new ideas. I also write about data science, machine learning, deep learning and statistics. Below is a list of the projects I have done and some of the stories from my blog on Medium.
 
 # Projects
 
