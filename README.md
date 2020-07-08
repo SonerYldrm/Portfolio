@@ -26,7 +26,7 @@ I consider myself a data science enthusiast who is always eager to learn new top
 **Data**: There is a huge dataset about [cryptocurrency market prices](https://www.kaggle.com/jessevent/all-crypto-currencies) on Kaggle. I only used a part of it which is historical price data of litecoin.
 
 **Achievements**:
-* Preprocess the data and convert it to a format that can be with to LSTM layer
+* Preprocess the data and convert it to a format that can be used as input to LSTM layer
 * Build a deep learning model with Keras that includes LSTM layers and a dense layer
 * The model achieved to reduce the loss below 0.002 on training set and also predict the trend on the test set.
 
