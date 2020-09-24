@@ -84,9 +84,7 @@ Another way to improve is to adjust model hyperparameters. We can use Randomized
 
 # Blog
 
-## Machine Learning Algorithms
-
-### Supervised Learning
+## Machine Learning and Deep Learning
 
 * [Support Vector Machines](https://towardsdatascience.com/support-vector-machine-explained-8d75fe8738fd?source=friends_link&sk=677804e88752a496a154ec74bc6a04ab)
 
@@ -96,11 +94,11 @@ Another way to improve is to adjust model hyperparameters. We can use Randomized
 
 * [Gradient Boosted Decision Trees](https://towardsdatascience.com/gradient-boosted-decision-trees-explained-9259bd8205af?source=friends_link&sk=69bae99ff05784e2f18412a30e4ee4c1)
 
+* [LightGBM](https://towardsdatascience.com/understanding-the-lightgbm-772ca08aabfa?source=friends_link&sk=5a3ce609ed94aba046b50266a27e0d2c)
+
 * [Logistic Regression](https://towardsdatascience.com/logistic-regression-explained-593e9ddb7c6c?source=friends_link&sk=9c80aae75268c7ef88c488fa6949d3f2)
 
 * [K-Nearest Neighbors (kNN)](https://towardsdatascience.com/k-nearest-neighbors-knn-explained-cbc31849a7e3?source=friends_link&sk=526badeb56f557074d17444b4a1b1b12)
-
-### Unsupervised Learning
 
 * [K-Means Clustering](https://towardsdatascience.com/k-means-clustering-explained-4528df86a120?source=friends_link&sk=4c8c67dd0f3702b4ecd5bd435e82be2a)
 
@@ -110,11 +108,23 @@ Another way to improve is to adjust model hyperparameters. We can use Randomized
 
 * [Principal Component Analysis](https://towardsdatascience.com/principal-component-analysis-explained-d404c34d76e7?source=friends_link&sk=87fcb241b63ad1d06f19ec032fde61f3)
 
+* [Hyperparameters of Decision Trees](https://towardsdatascience.com/hyperparameters-of-decision-trees-explained-with-visualizations-1a6ef2f67edf?source=friends_link&sk=f6b3c4ea1d8da2e4e50adc102690df93)
+
+* [All the Way from Information Theory to Log Loss in Machine Learning](https://towardsdatascience.com/all-the-way-from-information-theory-to-log-loss-in-machine-learning-c78488dade15?source=friends_link&sk=a8048353f7a9fff2a9fb62d691f2a8f9)
+
+* [Activation Functions in Neural Networks](https://towardsdatascience.com/activation-functions-in-neural-networks-eb8c1ba565f8?source=friends_link&sk=01a86acb77b4e9f26c745bb73ba5cf86)
+
+* [L1 and L2 Regularization](https://towardsdatascience.com/l1-and-l2-regularization-explained-874c3b03f668?source=friends_link&sk=5d13079774d89ee61f50073362ef4377)
+
 ## Data Analysis
 
 * [A Complete Pandas Guide](https://towardsdatascience.com/a-complete-pandas-guide-2dc53c77a002?source=friends_link&sk=763a53e1b1b46ef04fdb8819d57be28e)
 
 * [Pandas Groupby - Explained](https://towardsdatascience.com/pandas-groupby-explained-453692519d0?source=friends_link&sk=11ba7312e088e918102bc63cbbe61b3e)
+
+* [20 Pandas Functions to Boost Data Analysis Process](https://towardsdatascience.com/20-pandas-functions-that-will-boost-your-data-analysis-process-f5dfdb2f9e05?source=friends_link&sk=3e7a3851884286bbbd6c251c1213d0b4)
+
+* [Styling the Pandas DataFrames](https://towardsdatascience.com/style-your-pandas-dataframes-814e6a078c6d?source=friends_link&sk=cc3576449deb9418fa35e3892882a9f7)
 
 * [Time Series Analysis with Pandas](https://towardsdatascience.com/time-series-analysis-with-pandas-e6281a5fcda0?source=friends_link&sk=8a54005cf233b5d6e0e5fc0b5eacaba5)
 
@@ -122,7 +132,7 @@ Another way to improve is to adjust model hyperparameters. We can use Randomized
 
 * [The Most Underrated Tool in Data Science: NumPy (Part 2](https://medium.com/swlh/the-most-underrated-tool-in-data-science-numpy-part-2-d9bfb4b2313a?source=friends_link&sk=d5de2e2cf951ebe0f67c4de69455605c)
 
-## Statistics
+## Statistics and Math
 
 * [P-value, Hypothesis Testing and Statistical Significance](https://towardsdatascience.com/p-value-hypothesis-testing-and-statistical-significance-63bdd7277e66?source=friends_link&sk=1dff00ff968476adf5447ab4e356289a)
 
@@ -131,6 +141,8 @@ Another way to improve is to adjust model hyperparameters. We can use Randomized
 * [Central Limit Theorem — Explained with Examples](https://towardsdatascience.com/central-limit-theorem-explained-with-examples-4c10377ee58c?source=friends_link&sk=4fead2f33bdeb87ee42a6322d4f6fc8b)
 
 * [Covariance vs Correlation — Explained](https://medium.com/swlh/covariance-vs-correlation-explained-34d1b4142e28?source=friends_link&sk=256de5e272a8e2f2c88dd486a463fa9e)
+
+* [Linear Algebra for Data Scientists](https://towardsdatascience.com/linear-algebra-for-data-scientists-explained-with-numpy-6fec26519aea?source=friends_link&sk=8aaea5bab17881f21335a2b1d33d0fdb)
 
 
 
