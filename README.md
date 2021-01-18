@@ -70,8 +70,8 @@ The fuel of machine learning models is data so if we can collect more data, it i
 * Clean the raw data to make it suitable for data analysis.
 * With an extensive exploratory data analysis process, I was able to detect the effect of features on the price.
 * Implemented two models:
-1. Linear regression: Achieved 83.9% accuracy on test set.
-2. Random forests: Achieved 90% accuracy on test set.
+1. Linear regression: Achieved R-squared score of 0.84.
+2. Random forests: Achieved R-squared score of 0.90.
 
 **How to Improve**:
 There are many ways to improve a machine learning model. I think the most fundamental and effective one is to gather more data. In our case, we can (1) collect data for more cars or (2) more information of the cars in the current dataset or both. For the first one, there are other websites to sell used cars so we can increase the size of our dataset by adding new cars. For the second one, we can scrape more data about the cars from “sahibinden” website. If we click on an ad, another page with detailed information and pictures opens up. In this page, people write about the problems of the car, any previous accident or repairment and so on. 
